@@ -1,0 +1,119 @@
+:root {
+    --primary-color: #5B5BA6;
+    --secondary-color: #333;
+    --accent-color-1: #A8E6CF;
+    --accent-color-2: #FF6B6B;
+    --accent-color-3: #7A77FF;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: var(--secondary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 0px;
+}
+
+.logo img {
+    max-width: 300px;
+    height: auto;
+}
+
+.tagline {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.player-section {
+    padding: 40px 0;
+    background: #f8f9fa;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    line-height: 1.8;
+    padding: 40px 0;
+    text-align: center;
+    background: white;
+}
+
+.feature-section {
+    background: #f8f9fa;
+    padding: 40px 0;
+    margin: 20px 0;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.feature-card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-card img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.feature-card:last-child img {
+    width: 250px;  /* Make the player image larger */
+    margin-bottom: 0px;
+}
+
+.contact-text {
+    font-size: 1.4em;
+    color: var(--accent-color-3);
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer {
+    background: var(--primary-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .logo img {
+        max-width: 200px;
+    }
+}
+
+/* Pricing section is commented out but kept for future use */
+/*.pricing-section {
+    display: none;
+}*/
