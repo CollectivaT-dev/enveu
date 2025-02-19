@@ -22,7 +22,7 @@ header {
 }
 
 .logo {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .logo img {
@@ -31,10 +31,10 @@ header {
 }
 
 .tagline {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     font-style: italic;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 .container {
@@ -80,12 +80,11 @@ header {
 .feature-card img {
     width: 150px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .feature-card:last-child img {
-    width: 250px;  /* Make the player image larger */
-    margin-bottom: 0px;
+    width: 200px;  /* Make the player image larger */
 }
 
 .contact-text {
@@ -101,6 +100,16 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: 40px;
+}
+
+footer a {
+    color: #A8E6CF;  /* Light mint color for better contrast */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #FFE66D;  /* Yellow on hover, matching the logo color */
 }
 
 @media (max-width: 768px) {
