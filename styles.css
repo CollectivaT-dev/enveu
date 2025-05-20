@@ -123,7 +123,21 @@ footer a:hover {
     }
 }
 
-/* Pricing section is commented out but kept for future use */
-/*.pricing-section {
-    display: none;
-}*/
+.support-section {
+    margin: 2rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-text {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.support-logo {
+    max-width: 200px;
+    height: auto;
+}
